@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Birthday Surprise</title>
+
+  <!-- Preload background -->
+  <link rel="preload" as="image" href="beige bg.jpg">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: url('beige bg.jpg') center center no-repeat;
+      background-size: cover;
+      font-family: 'Playfair Display', serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #8b6f4e; /* champagne gold tone */
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.6);
+      border: 1.5px solid #d4af37;
+      width: 90%;
+      max-width: 420px;
+      padding: 40px 30px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      backdrop-filter: blur(4px);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .card h1 {
+      font-size: 2.3em;
+      color: #bfa76f;
+      margin-bottom: 10px;
+    }
+
+    .card h2 {
+      font-size: 1.3em;
+      color: #a67c00;
+      margin-bottom: 25px;
+    }
+
+    .card p {
+      font-size: 1.05em;
+      color: #6f5434;
+      margin: 12px 0;
+    }
+
+    .highlight {
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #b8860b;
+      margin: 25px 0 15px;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 1em;
+      color: #7e6848;
+      font-style: italic;
+    }
+
+    @media (max-width: 500px) {
+      .card {
+        padding: 30px 20px;
+      }
+
+      .card h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>haiiii bebeeee 💖</h1>
+    <h2>you're invited<br>to a special birthday celebration</h2>
+    <p>it's your birthday! 🎉</p>
+    <p>aku udah siapin sesuatu yang spesial buat kamu.</p>
+    <p class="highlight">let’s celebrate your sweet b’day sayang!</p>
+    <p><strong>📍 Café Janoor</strong></p>
+    <p><strong>📌 Jl. KH Syamil, Cilegon</strong></p>
+    <p><strong>🕓 Jam 16.00 WIB</strong></p>
+    <div class="footer">
+      hati-hati di jalan ya sayang, aku tunggu kamu 💕
+    </div>
+  </div>
+</body>
+</html>
